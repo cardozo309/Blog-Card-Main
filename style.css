@@ -17,65 +17,79 @@ body{
 }
 
 .container{
-    max-width: 300px;
+    width: 384px;
+    height: 522px;
     margin: 0 auto;
     border: 1px solid black;
     box-shadow: 5px 5px;
-    border-radius: 15px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .card{
-    background-color: white;
-    padding: 10px;
+    width: 336px;
+    height: 200px;
+    margin: 5% auto;
     border-radius: 15px;
 }
 
 .card .logo{
-    width: 100%;
+    width: 336px;
+    height: 200px;
     border-radius: 15px;
 }
 
 .text{
-    margin-top: 10px;
+    margin-top: 24px;
+    width: 336px;
+    height: 194px;
 }
 
 .subtitle{
     background-color: #F4D04E;
-    max-width: max-content;
-    padding: 2px;
-    font-weight: bold;
+    width: 82px;
+    padding: 8px;
+    text-align: center;
+    font-weight: 900;
     font-size: 14px;
+    border-radius: 4px;
 }
 
 .date{
     color: gray;
-    margin-top: 15px;
+    margin-top: 24px;
     font-size: 14px;
 }
 
 .title{
     font-size: 22px;
-    margin-top: 15px;
+    margin-top: 24px;
+}
+
+.title:hover{
+    color: #F4D04E;
+    cursor: pointer;
 }
 
 .textInt{
-    margin-top: 15px;
+    margin-top: 24px;
     color: gray;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .avatar{
     display: flex;
-    margin-top: 15px;
+    margin-top: 24px;
 }
 
 .ico{
-    width: 34px;
+    width: 32px;
+    height: 32px;
 }
 
 .user{
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 900;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 12px;
 }
